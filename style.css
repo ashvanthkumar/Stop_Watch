@@ -1,0 +1,29 @@
+*{
+    color: black;
+    margin-top: 10px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,rgb(255, 213, 26),yellow);
+}
+
+.container{
+    font-size: 80px;
+    border: 2px solid black;
+    width: 500px;
+    height: 110px;
+    font-size: 90px;
+    text-align: center;
+}
+
+button{
+    border-radius: 7px;
+    width: 175px;
+    height: 70px;
+    font-size: 30px;
+    cursor: pointer;
+}
